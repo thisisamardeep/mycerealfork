@@ -1,0 +1,102 @@
+mardeep@amardeep-HP-EliteBook-850-G8-Notebook-PC:~/Desktop/mysources/mycerealfork$ /usr/bin/g++   -MM -H  -I/home/amardeep/Desktop/mysources/mycerealfork/include  -std=gnu++17  -c /home/amardeep/Desktop/mysources/mycerealfork/main.cpp
+. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/archives/json.hpp
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/cereal.hpp
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/macros.hpp
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/traits.hpp
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/access.hpp
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/specialize.hpp
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/helpers.hpp
+...... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/static_object.hpp
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/base_class.hpp
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/polymorphic_impl_fwd.hpp
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/common.hpp
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/cereal.hpp
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/util.hpp
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/prettywriter.h
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/writer.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/rapidjson.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/encodings.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/meta.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../rapidjson.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/stack.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../allocators.h
+...... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../rapidjson.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/swap.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/strfunc.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../stream.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/dtoa.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/itoa.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/diyfp.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/ieee754.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/itoa.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stringbuffer.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/ostreamwrapper.h
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/istreamwrapper.h
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/document.h
+... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/reader.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/allocators.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/encodedstream.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/memorystream.h
+...... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/strtod.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/biginteger.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/pow10.h
+.... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/error/error.h
+..... /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/error/../rapidjson.h
+.. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/base64.hpp
+. /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/vector.hpp
+main.o: /home/amardeep/Desktop/mysources/mycerealfork/main.cpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/archives/json.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/cereal.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/macros.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/traits.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/access.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/specialize.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/helpers.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/static_object.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/base_class.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/polymorphic_impl_fwd.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/common.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/details/util.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/prettywriter.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/writer.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stream.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/rapidjson.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/encodings.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/meta.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../rapidjson.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/stack.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../allocators.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../rapidjson.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/swap.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/strfunc.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../stream.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/dtoa.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/itoa.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/diyfp.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/ieee754.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/itoa.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/stringbuffer.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/ostreamwrapper.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/istreamwrapper.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/document.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/reader.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/allocators.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/encodedstream.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/memorystream.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/strtod.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/biginteger.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/pow10.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/error/error.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/error/../rapidjson.h \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/base64.hpp \
+ /home/amardeep/Desktop/mysources/mycerealfork/include/cereal/types/vector.hpp
+Multiple include guards may be useful for:
+/home/amardeep/Desktop/mysources/mycerealfork/include/cereal/external/rapidjson/internal/../stream.h
+amardeep@amardeep-HP-EliteBook-850-G8-Notebook-PC:~/Desktop/mysources/mycerealfork$ B
