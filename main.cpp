@@ -1,8 +1,8 @@
 #include <iostream>
-#include <cereal/types/unordered_map.hpp>
-#include <cereal/types/memory.hpp>
-#include <cereal/archives/binary.hpp>
-#include <fstream>
+#include <iostream>
+#include <cereal/archives/json.hpp>
+#include <cereal/types/vector.hpp>
+
 struct MyRecord {
     uint8_t x, y;
     float z;
@@ -32,6 +32,11 @@ struct SomeData {
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cereal::JSONOutputArchive archive( std::cout );
+    bool arr[] = {true, false};
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    archive( CEREAL_NVP(vec),
+             arr );
+
     return 0;
 }
