@@ -4,3 +4,5 @@ Flow is working now--->
 
 Get function call log and include graph of this flow
 Get concept and make some articles on that concept
+
+https://pabloariasal.github.io/2020/01/02/static-variable-initialization/ do these concepts fully
