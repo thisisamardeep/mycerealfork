@@ -7,3 +7,7 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(mycereal main.cpp)
 target_include_directories(mycereal PUBLIC "include/")
+
+add_executable(mycerealnew mymain.cpp)
+target_include_directories(mycereal PUBLIC "myinclude/")
+
