@@ -9,3 +9,12 @@ https://pabloariasal.github.io/2020/01/02/static-variable-initialization/ do the
 
 /usr/bin/g++   -MM -H  -I/home/amardeep/Desktop/mysources/mycerealfork/include  -std=gnu++17  -c /home/amardeep/Desktop/mysources/mycerealfork/main.cpp
 /usr/bin/g++ -E -x c++ - -v -I/home/amardeep/Desktop/mysources/mycerealfork/include  -std=gnu++17  -c /home/amardeep/Desktop/mysources/mycerealfork/main.cpp
+
+
+
+======
+
+Most vexing parse topic needs to explain
+
+
+=================
