@@ -13,3 +13,8 @@ add_executable(mycerealnew mymain.cpp)
 target_include_directories(mycerealnew PUBLIC "myinclude/")
 
 target_compile_options(mycerealnew PUBLIC -Wall -Wextra -Wpedantic -Werror)
+
+add_executable(blog blog.cpp)
+target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic -Werror)
+
+
