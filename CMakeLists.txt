@@ -7,7 +7,8 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(mycereal main.cpp)
 target_include_directories(mycereal PUBLIC "include/")
-target_compile_options(mycereal PUBLIC -Wall -Wextra -Wpedantic -Werror)
+target_compile_options(mycereal PUBLIC -Wall -Wextra -Wpedantic)
+#target_compile_options(mycereal PUBLIC -Wall -Wextra -Wpedantic -Werror)
 
 add_executable(mycerealnew mymain.cpp)
 target_include_directories(mycerealnew PUBLIC "myinclude/")
@@ -15,7 +16,7 @@ target_include_directories(mycerealnew PUBLIC "myinclude/")
 target_compile_options(mycerealnew PUBLIC -Wall -Wextra -Wpedantic -Werror)
 
 add_executable(blog blog.cpp)
-target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic -Werror)
-#target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic)
+#target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic -Werror)
+target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic)
 
 
