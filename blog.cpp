@@ -4,49 +4,22 @@
 #include "type_traits"
 #include "iostream"
 
-class MyInteger {
 
+class Base {
 public:
-    MyInteger(int t) : m_i(t) {
-
+    static int x;
+public:
+    static int ee() {
+        return 516;
     }
-
-public:
-    int m_i;
-
 };
 
-class Square {
-public:
-    Square(MyInteger i) : my_int(i) {
-    }
-
-    int squared() {
-        return my_int.m_i * my_int.m_i;
-    }
-
-public:
-    MyInteger my_int;
-};
-
-int MyInteg() {
-    return 56;
-}
-
-
-
-//    MyInteger rr{34};
-//MyInteger mi(i);
-////
-////    Square r(mi);
-//Square r(MyInteger(i));
-
-
-//typename MyInteg MyIntegrr;
+int Base::x = 56;
 
 int main() {
-    std::cout << "std::is_function<MyInteger>    " << std::boolalpha << std::is_function<MyInteger>::value << std::endl;
-    std::cout << "std::is_function<MyInteger()>    " << std::boolalpha << std::is_function<MyInteger()>::value
-              << std::endl;
+    std::cout << Base::x << std::endl;
+    int err = Base::ee();
+    std::cout << err << std::endl;
+
 }
 
