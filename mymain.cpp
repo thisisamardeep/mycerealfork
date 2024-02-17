@@ -5,6 +5,8 @@
 
 
 int main() {
+    cereal1::JSONOutputArchive archive ();
+
     int t = 56;
     return 0;
 }

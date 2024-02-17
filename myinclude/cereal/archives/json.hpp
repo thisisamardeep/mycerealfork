@@ -1,4 +1,4 @@
-namespace cereal {
+namespace cereal1 {
     class JSONOutputArchive {
     public:
         class Options {
@@ -9,5 +9,10 @@ namespace cereal {
                 return Options();
             }
         };
+
+        JSONOutputArchive() {
+            int ty = 67;
+        }
+
     };
 }
