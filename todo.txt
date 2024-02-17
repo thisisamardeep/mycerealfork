@@ -15,6 +15,7 @@ https://pabloariasal.github.io/2020/01/02/static-variable-initialization/ do the
 ======
 
 Most vexing parse topic needs to explain
-
-
+ function declaration need to explain
+  need to understand functioin ppinters and mention they are something different
+need to write on function pointers in c and cpp
 =================

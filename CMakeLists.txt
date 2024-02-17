@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(untitled102)
+project(mycereal)
 
 set(CMAKE_CXX_STANDARD 17)
 SET(CMAKE_CXX_FLAGS "-save-temps -finstrument-functions -O0 -g3 -fno-elide-constructors")
@@ -16,5 +16,6 @@ target_compile_options(mycerealnew PUBLIC -Wall -Wextra -Wpedantic -Werror)
 
 add_executable(blog blog.cpp)
 target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic -Werror)
+#target_compile_options(blog PUBLIC -Wall -Wextra -Wpedantic)
 
 
