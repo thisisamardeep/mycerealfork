@@ -8,9 +8,14 @@ namespace cereal1 {
                 int t = 56;
                 return Options();
             }
+
+            explicit Options() {
+
+            }
         };
 
-        JSONOutputArchive() {
+
+        JSONOutputArchive(Options options) {
             int ty = 67;
         }
 
