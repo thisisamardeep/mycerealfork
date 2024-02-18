@@ -19,3 +19,8 @@ Most vexing parse topic needs to explain
   need to understand functioin ppinters and mention they are something different
 need to write on function pointers in c and cpp
 =================
+
+https://www.sjbrown.co.uk/posts/always-use-explicit/
+use this post
+https://quuxplusone.github.io/blog/2023/04/08/most-ctors-should-be-explicit/
+

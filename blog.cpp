@@ -5,21 +5,36 @@
 #include "iostream"
 
 
-class Base {
+class Foo {
 public:
-    static int x;
-public:
-    static int ee() {
-        return 516;
-    }
+    explicit Foo();
+    explicit Foo(int);
+    explicit Foo(int, int);
+};
+Foo::Foo() {
+}
+Foo::Foo(int i) {
+}
+Foo::Foo(int i, int j) {
+}
+void read_foo(const Foo &) {
+// Some external api which reads Foo
 };
 
-int Base::x = 56;
-
 int main() {
-    std::cout << Base::x << std::endl;
-    int err = Base::ee();
-    std::cout << err << std::endl;
-
+    Foo i1;
+    Foo i2 = Foo();
+    Foo i3 = Foo(1);
+    Foo i4 = Foo(1, 2);
+    // The below ways of creation will not work if explicit is marked.So our code base becomes much clean and less
+    //error prone
+    Foo i5 = {};
+    Foo i6 = 1;
+    Foo i7 = {1};
+    Foo i8 = {1, 2};
+    read_foo({});
+    read_foo(1);
+    read_foo({1});
+    read_foo({1, 2});
 }
 
